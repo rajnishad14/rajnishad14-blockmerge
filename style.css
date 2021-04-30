@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #401f3e;
+}
+nav {
+  width: 100%;
+  height: 4rem;
+  background-color: #2e382e;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+.main {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  background-color: #50c9ce;
+  height: 80vh;
+}
+.board {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  padding: 5px;
+  margin: 5px auto;
+  border: 5px solid #2e382e;
+  background-color: #fcd3de;
+  width: 40vw;
+}
+
+.cell {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+
+.score {
+  color: #ebebeb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 3rem;
+  background-color: #8d5a97;
+  padding: 20px;
+}
+
+.score button {
+  background-color: transparent;
+  color: whitesmoke;
+  height: 30px;
+  width: 70px;
+  padding: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.red {
+  background-image: linear-gradient(to bottom right, red, rgb(80, 75, 75));
+}
+.green {
+  background-image: linear-gradient(to bottom right, green, rgb(80, 75, 75));
+}
+.blue {
+  background-image: linear-gradient(to bottom right, blue, rgb(80, 75, 75));
+}
+.yellow {
+  background-image: linear-gradient(to bottom right, yellow, rgb(80, 75, 75));
+}
+
+.heighlight {
+  background-image: linear-gradient(to bottom right, white, rgb(119, 113, 113));
+}
+
+.clicked {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  background-color: white;
+}
