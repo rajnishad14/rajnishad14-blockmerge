@@ -8,7 +8,15 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav>Block Merge</nav>
+    <nav>
+      <div class="score">
+        <h1>Score:</h1>
+        <h2 id="score">0</h2>
+        <h2>Block Score:</h2>
+        <h3 id="blockscore">0</h3>
+        <button onclick="restart()">Restart</button>
+      </div>
+    </nav>
     <div class="main">
       <div class="board">
         <div class="cell"></div>
@@ -155,13 +163,6 @@
         <div class="cell"></div>
         <div class="cell"></div>
         <div class="cell"></div>
-      </div>
-      <div class="score">
-        <h1>Score:</h1>
-        <h2 id="score">0</h2>
-        <h2>Block Score:</h2>
-        <h3 id="blockscore">0</h3>
-        <button onclick="restart()">Restart</button>
       </div>
     </div>
     <script src="./script.js"></script>

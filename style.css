@@ -12,16 +12,13 @@ nav {
   background-color: #2e382e;
   color: whitesmoke;
   text-align: center;
-  font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  padding: 10px;
+  padding-top: 10px;
 }
 .main {
-  display: grid;
-  grid-template-columns: 3fr 1fr 1fr;
   background-color: #50c9ce;
-  height: 80vh;
+  height: 85vh;
+  padding: 15px;
 }
 .board {
   display: grid;
@@ -30,20 +27,25 @@ nav {
   margin: 5px auto;
   border: 5px solid #2e382e;
   background-color: #fcd3de;
-  width: 40vw;
+  width: fit-content;
 }
 
 .cell {
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  height: 40px;
+  width: 40px;
 }
 
 .score {
   color: #ebebeb;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 3rem;
-  background-color: #8d5a97;
-  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  display: inline;
+  margin: 20px;
 }
 
 .score button {
@@ -56,6 +58,7 @@ nav {
   font-weight: bold;
   border-radius: 10%;
   cursor: pointer;
+  margin: 10px;
 }
 
 .red {
@@ -77,6 +80,7 @@ nav {
 
 .clicked {
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  height: 40px;
+  width: 40px;
   background-color: white;
 }
