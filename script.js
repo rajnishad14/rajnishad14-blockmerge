@@ -44,12 +44,16 @@ function handleClick(i) {
   // win check
   let won = win()
   if (won) {
-    alert('you won the game! ✨🎉')
+    setTimeout(() => {
+      alert('you won the game! ✨🎉')
+    }, 0)
   }
   // nomoves check
   let noMove = noMoves()
   if (noMove) {
-    alert('no moves left !🎃')
+    setTimeout(() => {
+      alert('no moves left !🎃')
+    }, 0)
   }
 }
 
