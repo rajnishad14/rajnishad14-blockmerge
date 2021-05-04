@@ -31,8 +31,8 @@ nav {
 
 .cell {
   border: 1px solid rgba(0, 0, 0, 0.8);
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
 }
 
 .score {
@@ -80,37 +80,36 @@ button {
 
 .clicked {
   border: 1px solid rgba(0, 0, 0, 0.8);
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   background-color: white;
 }
 
 /* media queries */
-
-@media screen and (max-width: 480px) {
-  html {
-    font-size: 10px;
-  }
-  .cell {
-    height: 20px;
-    width: 20px;
-  }
-  .clicked {
-    height: 20px;
-    width: 20px;
-  }
-}
-
 @media screen and (max-width: 720px) {
   html {
     font-size: 12px;
   }
   .cell {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
   }
   .clicked {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 10px;
+  }
+  .cell {
+    height: 18px;
+    width: 18px;
+  }
+  .clicked {
+    height: 18px;
+    width: 18px;
   }
 }
