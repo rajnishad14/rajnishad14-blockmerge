@@ -84,3 +84,33 @@ button {
   width: 40px;
   background-color: white;
 }
+
+/* media queries */
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 10px;
+  }
+  .cell {
+    height: 20px;
+    width: 20px;
+  }
+  .clicked {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 12px;
+  }
+  .cell {
+    height: 30px;
+    width: 30px;
+  }
+  .clicked {
+    height: 30px;
+    width: 30px;
+  }
+}
